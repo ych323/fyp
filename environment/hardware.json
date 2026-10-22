@@ -1,0 +1,11 @@
+{
+  "python": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]",
+  "executable": "<original Python virtual environment path omitted>",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.6.0+cu124",
+  "cuda_available": true,
+  "torch_cuda": "12.4",
+  "ram_gb": 16.96182272,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_vram_gb": 8.585216
+}

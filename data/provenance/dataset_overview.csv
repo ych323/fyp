@@ -1,0 +1,7 @@
+﻿language,split,n,compressed_bytes,mean_body_characters,median_body_characters,books_fraction
+en,train,200000,21483640,178.84632,125.0,0.01878
+en,validation,5000,541894,180.45,127.0,0.0164
+en,test,5000,536112,177.751,125.0,0.021
+zh,train,200000,23300464,51.019805,37.0,0.31529
+zh,validation,5000,577941,50.2846,36.0,0.3126
+zh,test,5000,588705,51.3122,37.0,0.3134

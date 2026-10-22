@@ -1,0 +1,213 @@
+{
+  "revisions": {
+    "buruzaemon/amazon_reviews_multi": "486fbd96a972291f6d7b4cad9d88088c5983244c",
+    "google-bert/bert-base-multilingual-cased": "3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
+    "FacebookAI/xlm-roberta-base": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089"
+  },
+  "files": [
+    {
+      "repo": "buruzaemon/amazon_reviews_multi",
+      "revision": "486fbd96a972291f6d7b4cad9d88088c5983244c",
+      "url": "https://huggingface.co/datasets/buruzaemon/amazon_reviews_multi/resolve/486fbd96a972291f6d7b4cad9d88088c5983244c/README.md",
+      "local_path": "data/raw/marc/README.md",
+      "bytes": 7608,
+      "expected_sha256": null,
+      "sha256": "3322520eb62a983fdfb5d758f35dcb2bf4219a663ada8a36bdc4afd938a78689"
+    },
+    {
+      "repo": "buruzaemon/amazon_reviews_multi",
+      "revision": "486fbd96a972291f6d7b4cad9d88088c5983244c",
+      "url": "https://huggingface.co/datasets/buruzaemon/amazon_reviews_multi/resolve/486fbd96a972291f6d7b4cad9d88088c5983244c/amazon_reviews_multi.py",
+      "local_path": "data/raw/marc/amazon_reviews_multi.py",
+      "bytes": 3894,
+      "expected_sha256": null,
+      "sha256": "ae6c0436b917faf64f90e2d654bd290ec36746dc94f5e1e95d88c1336fe91f3d"
+    },
+    {
+      "repo": "buruzaemon/amazon_reviews_multi",
+      "revision": "486fbd96a972291f6d7b4cad9d88088c5983244c",
+      "url": "https://huggingface.co/datasets/buruzaemon/amazon_reviews_multi/resolve/486fbd96a972291f6d7b4cad9d88088c5983244c/en/test.jsonl.gz",
+      "local_path": "data/raw/marc/en/test.jsonl.gz",
+      "bytes": 536112,
+      "expected_sha256": "c77950731169a57fcc74153d5e46b5ad7cbddd13c37eed5d2416975e68f54d62",
+      "sha256": "c77950731169a57fcc74153d5e46b5ad7cbddd13c37eed5d2416975e68f54d62"
+    },
+    {
+      "repo": "buruzaemon/amazon_reviews_multi",
+      "revision": "486fbd96a972291f6d7b4cad9d88088c5983244c",
+      "url": "https://huggingface.co/datasets/buruzaemon/amazon_reviews_multi/resolve/486fbd96a972291f6d7b4cad9d88088c5983244c/en/train.jsonl.gz",
+      "local_path": "data/raw/marc/en/train.jsonl.gz",
+      "bytes": 21483640,
+      "expected_sha256": "e76ccbd8ed2e18b395de3547765f00793994d4df78d1b21a234740288dbf4f3f",
+      "sha256": "e76ccbd8ed2e18b395de3547765f00793994d4df78d1b21a234740288dbf4f3f"
+    },
+    {
+      "repo": "buruzaemon/amazon_reviews_multi",
+      "revision": "486fbd96a972291f6d7b4cad9d88088c5983244c",
+      "url": "https://huggingface.co/datasets/buruzaemon/amazon_reviews_multi/resolve/486fbd96a972291f6d7b4cad9d88088c5983244c/en/validation.jsonl.gz",
+      "local_path": "data/raw/marc/en/validation.jsonl.gz",
+      "bytes": 541894,
+      "expected_sha256": "5cd07daa26d37b834ef1afe645ffe8acdcbf3f8eaa3f634903b1184425026cc5",
+      "sha256": "5cd07daa26d37b834ef1afe645ffe8acdcbf3f8eaa3f634903b1184425026cc5"
+    },
+    {
+      "repo": "buruzaemon/amazon_reviews_multi",
+      "revision": "486fbd96a972291f6d7b4cad9d88088c5983244c",
+      "url": "https://huggingface.co/datasets/buruzaemon/amazon_reviews_multi/resolve/486fbd96a972291f6d7b4cad9d88088c5983244c/zh/test.jsonl.gz",
+      "local_path": "data/raw/marc/zh/test.jsonl.gz",
+      "bytes": 588705,
+      "expected_sha256": "7c3401a47c839c324c974d9a4ce17df76af266da2734015f47416a43098e2444",
+      "sha256": "7c3401a47c839c324c974d9a4ce17df76af266da2734015f47416a43098e2444"
+    },
+    {
+      "repo": "buruzaemon/amazon_reviews_multi",
+      "revision": "486fbd96a972291f6d7b4cad9d88088c5983244c",
+      "url": "https://huggingface.co/datasets/buruzaemon/amazon_reviews_multi/resolve/486fbd96a972291f6d7b4cad9d88088c5983244c/zh/train.jsonl.gz",
+      "local_path": "data/raw/marc/zh/train.jsonl.gz",
+      "bytes": 23300464,
+      "expected_sha256": "624700d06eccd421ee5a6f52f3575e3e75047990d44f3a6381b7e2ddb0aebd26",
+      "sha256": "624700d06eccd421ee5a6f52f3575e3e75047990d44f3a6381b7e2ddb0aebd26"
+    },
+    {
+      "repo": "buruzaemon/amazon_reviews_multi",
+      "revision": "486fbd96a972291f6d7b4cad9d88088c5983244c",
+      "url": "https://huggingface.co/datasets/buruzaemon/amazon_reviews_multi/resolve/486fbd96a972291f6d7b4cad9d88088c5983244c/zh/validation.jsonl.gz",
+      "local_path": "data/raw/marc/zh/validation.jsonl.gz",
+      "bytes": 577941,
+      "expected_sha256": "9c0c0130d2524c24a14e063e7790f73d36f601a8b4bfae24be87635f40b6f535",
+      "sha256": "9c0c0130d2524c24a14e063e7790f73d36f601a8b4bfae24be87635f40b6f535"
+    },
+    {
+      "repo": "google-bert/bert-base-multilingual-cased",
+      "revision": "3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
+      "url": "https://huggingface.co/google-bert/bert-base-multilingual-cased/resolve/3f076fdb1ab68d5b2880cb87a0886f315b8146f8/README.md",
+      "local_path": "models/pretrained/mbert/README.md",
+      "bytes": 7104,
+      "expected_sha256": null,
+      "sha256": "f68ac58055880eebf82c52b1371528e7a254027211257e9100f574baf9d1b517"
+    },
+    {
+      "repo": "google-bert/bert-base-multilingual-cased",
+      "revision": "3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
+      "url": "https://huggingface.co/google-bert/bert-base-multilingual-cased/resolve/3f076fdb1ab68d5b2880cb87a0886f315b8146f8/config.json",
+      "local_path": "models/pretrained/mbert/config.json",
+      "bytes": 625,
+      "expected_sha256": null,
+      "sha256": "4d10c2021c6b5fbe8b70698abc6ccc6691dc28d1bae9732f7fa1087782feba7e"
+    },
+    {
+      "repo": "google-bert/bert-base-multilingual-cased",
+      "revision": "3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
+      "url": "https://huggingface.co/google-bert/bert-base-multilingual-cased/resolve/3f076fdb1ab68d5b2880cb87a0886f315b8146f8/model.safetensors",
+      "local_path": "models/pretrained/mbert/model.safetensors",
+      "bytes": 714290682,
+      "expected_sha256": "876f584f15ebf14887dec17539c114bb99a032e96b9e72507a51c41e205337fc",
+      "sha256": "876f584f15ebf14887dec17539c114bb99a032e96b9e72507a51c41e205337fc"
+    },
+    {
+      "repo": "google-bert/bert-base-multilingual-cased",
+      "revision": "3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
+      "url": "https://huggingface.co/google-bert/bert-base-multilingual-cased/resolve/3f076fdb1ab68d5b2880cb87a0886f315b8146f8/tokenizer.json",
+      "local_path": "models/pretrained/mbert/tokenizer.json",
+      "bytes": 1961828,
+      "expected_sha256": null,
+      "sha256": "f4a4d5bf7301717e261fafbe26e1eb967f6ba4cb3ae0ab7a29f4642ec229f386"
+    },
+    {
+      "repo": "google-bert/bert-base-multilingual-cased",
+      "revision": "3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
+      "url": "https://huggingface.co/google-bert/bert-base-multilingual-cased/resolve/3f076fdb1ab68d5b2880cb87a0886f315b8146f8/tokenizer_config.json",
+      "local_path": "models/pretrained/mbert/tokenizer_config.json",
+      "bytes": 49,
+      "expected_sha256": null,
+      "sha256": "0f6d13e6f4da6f9e24f22ada6bc3be571123d858d7c0c05a8a7cd55a9c23c2e8"
+    },
+    {
+      "repo": "google-bert/bert-base-multilingual-cased",
+      "revision": "3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
+      "url": "https://huggingface.co/google-bert/bert-base-multilingual-cased/resolve/3f076fdb1ab68d5b2880cb87a0886f315b8146f8/vocab.txt",
+      "local_path": "models/pretrained/mbert/vocab.txt",
+      "bytes": 995526,
+      "expected_sha256": null,
+      "sha256": "fe0fda7c425b48c516fc8f160d594c8022a0808447475c1a7c6d6479763f310c"
+    },
+    {
+      "repo": "FacebookAI/xlm-roberta-base",
+      "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+      "url": "https://huggingface.co/FacebookAI/xlm-roberta-base/resolve/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/README.md",
+      "local_path": "models/pretrained/xlmr/README.md",
+      "bytes": 5238,
+      "expected_sha256": null,
+      "sha256": "bec9f2cd81f7396a64ee474145117d81139906443a21480cbe4993c97cb499aa"
+    },
+    {
+      "repo": "FacebookAI/xlm-roberta-base",
+      "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+      "url": "https://huggingface.co/FacebookAI/xlm-roberta-base/resolve/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/config.json",
+      "local_path": "models/pretrained/xlmr/config.json",
+      "bytes": 615,
+      "expected_sha256": null,
+      "sha256": "d66ed8cd4f2a93b358c245e50736fa389ed4f35c0bae7aad0b32abb20c62b579"
+    },
+    {
+      "repo": "FacebookAI/xlm-roberta-base",
+      "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+      "url": "https://huggingface.co/FacebookAI/xlm-roberta-base/resolve/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/model.safetensors",
+      "local_path": "models/pretrained/xlmr/model.safetensors",
+      "bytes": 1115567652,
+      "expected_sha256": "6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb",
+      "sha256": "6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb"
+    },
+    {
+      "repo": "FacebookAI/xlm-roberta-base",
+      "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+      "url": "https://huggingface.co/FacebookAI/xlm-roberta-base/resolve/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/sentencepiece.bpe.model",
+      "local_path": "models/pretrained/xlmr/sentencepiece.bpe.model",
+      "bytes": 5069051,
+      "expected_sha256": null,
+      "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+    },
+    {
+      "repo": "FacebookAI/xlm-roberta-base",
+      "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+      "url": "https://huggingface.co/FacebookAI/xlm-roberta-base/resolve/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/tokenizer.json",
+      "local_path": "models/pretrained/xlmr/tokenizer.json",
+      "bytes": 9096718,
+      "expected_sha256": null,
+      "sha256": "a898ea75433890f6610f4e470b8ebeb0c21dce5c8dd61f892eb09eb5919d2e2c"
+    },
+    {
+      "repo": "FacebookAI/xlm-roberta-base",
+      "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+      "url": "https://huggingface.co/FacebookAI/xlm-roberta-base/resolve/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/tokenizer_config.json",
+      "local_path": "models/pretrained/xlmr/tokenizer_config.json",
+      "bytes": 25,
+      "expected_sha256": null,
+      "sha256": "994f46754c5bf4014f1aa92d34b1374319c3a6b3f702105cd5b742beaecd18ce"
+    },
+    {
+      "url": "https://aclanthology.org/2020.emnlp-main.369.pdf",
+      "local_path": "references/paper1_marc.pdf",
+      "bytes": 718086,
+      "sha256": "d6622fcd7f786a5b33986bb2abd4e4e7d09ad732c5f73cfac8c12f58923e2feb"
+    },
+    {
+      "url": "https://aclanthology.org/2020.acl-main.747.pdf",
+      "local_path": "references/paper2_xlmr.pdf",
+      "bytes": 418035,
+      "sha256": "9ca6c11ff662675a30052e6fd6cf9d2bf2ef0a7105af71261033f4d3400df659"
+    },
+    {
+      "url": "https://www.jmlr.org/papers/volume17/15-239/15-239.pdf",
+      "local_path": "references/paper3_dann.pdf",
+      "bytes": 5670840,
+      "sha256": "801be7cae7acf3ec0df604d40e6129cb9f594e09e6891370b3f7bd2ebef40403"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v70/guo17a/guo17a.pdf",
+      "local_path": "references/paper6_calibration.pdf",
+      "bytes": 828420,
+      "sha256": "df7c93f97204f8a3c2b10f6d5bf5265baac25f00c1ae3b473a3e1dbc102dacb2"
+    }
+  ]
+}
