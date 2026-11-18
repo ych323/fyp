@@ -1,0 +1,5 @@
+{
+  "base": "mbert",
+  "dann": false,
+  "num_labels": 5
+}

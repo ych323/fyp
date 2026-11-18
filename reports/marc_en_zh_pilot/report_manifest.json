@@ -1,0 +1,36 @@
+{
+  "models_completed": [
+    "mbert",
+    "xlmr",
+    "xlmr_dann"
+  ],
+  "config": {
+    "study": "marc_en_zh_pilot",
+    "seed": 42,
+    "source_language": "en",
+    "target_language": "zh",
+    "num_labels": 5,
+    "train_samples": 10000,
+    "target_unlabeled_samples": 10000,
+    "selection_samples": 2500,
+    "calibration_samples": 2500,
+    "epochs": 2,
+    "max_length": 128,
+    "body_max_tokens": 110,
+    "input_fields": "body_title_category",
+    "train_batch_size": 8,
+    "eval_batch_size": 16,
+    "gradient_accumulation_steps": 4,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "max_grad_norm": 1.0,
+    "gradient_checkpointing": true,
+    "precision": "fp16",
+    "dann_max_lambda": 0.1,
+    "ece_bins": 15,
+    "num_workers": 0,
+    "cpu_threads": 4
+  },
+  "status": "complete"
+}

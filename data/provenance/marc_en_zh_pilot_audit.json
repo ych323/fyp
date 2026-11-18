@@ -1,0 +1,191 @@
+{
+  "config": {
+    "study": "marc_en_zh_pilot",
+    "seed": 42,
+    "source_language": "en",
+    "target_language": "zh",
+    "num_labels": 5,
+    "train_samples": 10000,
+    "target_unlabeled_samples": 10000,
+    "selection_samples": 2500,
+    "calibration_samples": 2500,
+    "epochs": 2,
+    "max_length": 128,
+    "body_max_tokens": 110,
+    "input_fields": "body_title_category",
+    "train_batch_size": 8,
+    "eval_batch_size": 16,
+    "gradient_accumulation_steps": 4,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "max_grad_norm": 1.0,
+    "gradient_checkpointing": true,
+    "precision": "fp16",
+    "dann_max_lambda": 0.1,
+    "ece_bins": 15,
+    "num_workers": 0,
+    "cpu_threads": 4
+  },
+  "raw_splits": {
+    "en_train": {
+      "count": 200000,
+      "stars": {
+        "1": 40000,
+        "2": 40000,
+        "3": 40000,
+        "4": 40000,
+        "5": 40000
+      },
+      "null_fields": {
+        "review_body": 0,
+        "review_title": 33,
+        "product_category": 0
+      }
+    },
+    "en_validation": {
+      "count": 5000,
+      "stars": {
+        "1": 1000,
+        "2": 1000,
+        "3": 1000,
+        "4": 1000,
+        "5": 1000
+      },
+      "null_fields": {
+        "review_body": 0,
+        "review_title": 1,
+        "product_category": 0
+      }
+    },
+    "en_test": {
+      "count": 5000,
+      "stars": {
+        "1": 1000,
+        "2": 1000,
+        "3": 1000,
+        "4": 1000,
+        "5": 1000
+      },
+      "null_fields": {
+        "review_body": 0,
+        "review_title": 1,
+        "product_category": 0
+      }
+    },
+    "zh_train": {
+      "count": 200000,
+      "stars": {
+        "1": 40000,
+        "2": 40000,
+        "3": 40000,
+        "4": 40000,
+        "5": 40000
+      },
+      "null_fields": {
+        "review_body": 0,
+        "review_title": 6,
+        "product_category": 0
+      }
+    },
+    "zh_validation": {
+      "count": 5000,
+      "stars": {
+        "1": 1000,
+        "2": 1000,
+        "3": 1000,
+        "4": 1000,
+        "5": 1000
+      },
+      "null_fields": {
+        "review_body": 0,
+        "review_title": 0,
+        "product_category": 0
+      }
+    },
+    "zh_test": {
+      "count": 5000,
+      "stars": {
+        "1": 1000,
+        "2": 1000,
+        "3": 1000,
+        "4": 1000,
+        "5": 1000
+      },
+      "null_fields": {
+        "review_body": 0,
+        "review_title": 0,
+        "product_category": 0
+      }
+    }
+  },
+  "processed_splits": {
+    "en_train": {
+      "count": 10000,
+      "sha256": "a9fb3dd38fd29b8785d3ee623f6916c074e9b92da1159a36cb4b50cd38adbeff",
+      "label_counts": {
+        "0": 2000,
+        "1": 2000,
+        "3": 2000,
+        "2": 2000,
+        "4": 2000
+      }
+    },
+    "zh_unlabeled": {
+      "count": 10000,
+      "sha256": "2298a51590f8aaabebd35f72935031318aa64e8d3048d0a445aba87c1bf71d43",
+      "label_counts": null
+    },
+    "en_selection": {
+      "count": 2500,
+      "sha256": "a5933580ffa430e16643996d1f5bc912ab190dae0eee8dc731f21c8bb186a21c",
+      "label_counts": {
+        "2": 500,
+        "4": 500,
+        "0": 500,
+        "3": 500,
+        "1": 500
+      }
+    },
+    "en_calibration": {
+      "count": 2500,
+      "sha256": "c4724c6cff19876c628e5234161f6cba609cfde1eed926a02efc6aed8fa0e45b",
+      "label_counts": {
+        "3": 500,
+        "1": 500,
+        "4": 500,
+        "2": 500,
+        "0": 500
+      }
+    },
+    "en_test": {
+      "count": 5000,
+      "sha256": "2e61428b6d21d912d67d5057d0bfc75345ff50fadb976bd6ca1a33d951882218",
+      "label_counts": {
+        "0": 1000,
+        "1": 1000,
+        "2": 1000,
+        "3": 1000,
+        "4": 1000
+      }
+    },
+    "zh_test": {
+      "count": 5000,
+      "sha256": "183d9e36ef6c14980e1ffcdff2516b837197541557888a1475ae85804c2c9484",
+      "label_counts": {
+        "0": 1000,
+        "1": 1000,
+        "2": 1000,
+        "3": 1000,
+        "4": 1000
+      }
+    }
+  },
+  "checks": {
+    "counts_verified": true,
+    "all_review_ids_disjoint": true,
+    "target_training_labels_absent": true,
+    "chinese_validation_used": false,
+    "source_sample_shared_across_models": true
+  }
+}

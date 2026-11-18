@@ -1,0 +1,27 @@
+# Future full-data study; still an adapted protocol, not exact original-paper replication.
+study: marc_en_zh_full
+seed: 42
+source_language: en
+target_language: zh
+num_labels: 5
+train_samples: 200000
+target_unlabeled_samples: 200000
+selection_samples: 2500
+calibration_samples: 2500
+epochs: 3
+max_length: 192
+body_max_tokens: 180
+input_fields: body_title_category
+train_batch_size: 4
+eval_batch_size: 16
+gradient_accumulation_steps: 8
+learning_rate: 0.00002
+weight_decay: 0.01
+warmup_ratio: 0.1
+max_grad_norm: 1.0
+gradient_checkpointing: true
+precision: fp16
+dann_max_lambda: 0.1
+ece_bins: 15
+num_workers: 0
+cpu_threads: 4

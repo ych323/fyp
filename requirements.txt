@@ -1,0 +1,13 @@
+# Install CUDA torch separately using scripts/setup.ps1.
+transformers==4.51.3
+tokenizers==0.21.4
+huggingface-hub==0.30.2
+safetensors==0.5.3
+numpy==2.2.4
+scipy==1.15.2
+scikit-learn==1.6.1
+matplotlib==3.10.1
+sentencepiece==0.2.0
+requests==2.32.3
+psutil==7.0.0
+PyYAML==6.0.2

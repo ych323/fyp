@@ -1,0 +1,32 @@
+{
+  "study": "marc_en_zh_pilot",
+  "checkpoints": [
+    {
+      "model": "mbert",
+      "path_after_restore": "models/finetuned/marc_en_zh_pilot/mbert/best.safetensors",
+      "bytes": 709090668,
+      "sha256": "b6c6e43a08aff37b5d8220d8d133114b3a4f75e7e6eecc19954805c5a091dee9",
+      "parameters": 177266693,
+      "public_download_url": null,
+      "status": "local archive only; not published"
+    },
+    {
+      "model": "xlmr",
+      "path_after_restore": "models/finetuned/marc_en_zh_pilot/xlmr/best.safetensors",
+      "bytes": 1109851620,
+      "sha256": "ac7d0a6fbf1293f08637b9ade4897fc47a4e16164839645b99688b4c656aae04",
+      "parameters": 277456901,
+      "public_download_url": null,
+      "status": "local archive only; not published"
+    },
+    {
+      "model": "xlmr_dann",
+      "path_after_restore": "models/finetuned/marc_en_zh_pilot/xlmr_dann/best.safetensors",
+      "bytes": 1110641492,
+      "sha256": "fdc91dcd664c01e1d9b37eb017ca6ed09f0f13c80e5aa603cd34f4c23b2f4672",
+      "parameters": 277654279,
+      "public_download_url": null,
+      "status": "local archive only; not published"
+    }
+  ]
+}
